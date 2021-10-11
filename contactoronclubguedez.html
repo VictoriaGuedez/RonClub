@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<meta name=viewport content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+			<link rel="stylesheet" type="text/css" href="scss/estilo.css">
+			<title>
+				Ron Club - Unete al Club
+			</title>
+		</head>
+		<body class="container-fluid">
+			<header class="logoRon">
+				<h2 class="ron">RON</h2>
+				<img class="logo" src=fotos/LogoRonClubBlanco.png alt="Logo Ron Club">
+				<a ref="contactoronclubguedez.html" value="content" target="_BLANK"></a>
+				<h2 class="ron">CLUB</h2>
+			</header>			
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html" target="_BLANK">INICIO<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="contenidoronclubguedez.html" target="_BLANK">CONTENIDO<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="tiendaronclubguedez.html" target="_BLANK">TIENDA<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="beneficiosronclubguedez.html" target="_BLANK">BENEFICIOS<span class="sr-only">(current)</span></a>
+						</li>
+			</nav>
+
+			<div class="vinculoWhatsapp">
+					<a href="https://api.whatsapp.com/send?phone=+5491168021068" target="_blank">
+					<img src="fotos/whatsapp.png" alt="logo whatsapp">
+					</a>
+			</div>
+
+			<h2 class="titulo-4">PLANES RON CLUB</h2>
+			<div class="tarjetas row">
+				<div class="card" style="width: 18rem;">
+					<div class="card-body">
+						<h5 class="card-title">Plan Clásico</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Información, degustación... si estás iniciando ¡este es tu plan!</h6>
+						<ul id="contenidoPlanes">
+							<li>Recibís información exclusiva de la mano de nuestros Maestros Roneros.</li>
+							<li>Tenés acceso exclusivo por ZOOM a la degustación del Ron del Mes.</li>
+							<li>Accedés al Club de Beneficios.</li>
+							<li>Recibe un regalo por tu cumpleaños.</li>
+						</ul>
+						<p id="precioPlan"><strong>PRECIO</strong> $5.000 x mes</p>
+					</div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					<div class="card-body">
+						<h5 class="card-title">Plan Añejo</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Información, degustación, te llevamos el ron para que disfrutes con nosotros.</h6>
+						<ul id="contenidoPlanes">
+							<li>Recibís información exclusiva de la mano de nuestros Maestros Roneros.</li>
+							<li>Tenés acceso exclusivo por ZOOM a la degustación del Ron del Mes.</li>
+							<li>Cada mes, recibí en casa una botella de nuestro Ron del Mes.</li>
+							<li>Accedes al Club de Beneficios.</li>
+							<li>Recibe un regalo por tu cumpleaños.</li>
+						</ul>
+						<p id="precioPlan"><strong>PRECIO</strong> $10.000 x mes</p>
+					</div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					<div class="card-body">
+						<h5 class="card-title">Plan Reserva</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Información, degustación, te llevamos el ron para que disfrutes con nosotros y además una caja con los mejores productos para tu experiencia sea completa.</h6>
+						<ul id="contenidoPlanes">
+							<li>Recibís información exclusiva de la mano de nuestros Maestros Roneros.</li>
+							<li>Cada mes, recibí en casa una caja exclusiva con nuestro Ron del Mes y los mejores productos para maridar tu degustación.</li>
+							<li>Accedes al Club de Beneficios.</li>
+							<li>Recibe un regalo por tu cumpleaños.</li>
+						</ul>
+						<p id="precioPlan"><strong>PRECIO</strong> $15.000 x mes</p>
+					</div>
+			</div>
+			<div class="formularioRon">
+					<form id="formulario" method="GET" action="">
+							<div class="nombre">
+								<label for="nombre">Nombre</label>
+									<input type="text" name="nombre" id="nombre" placeholder="¿cuál es tu nombre?">
+							</div>
+					
+							<div class="apellido">									
+								<label for="apellido">Apellido</label>
+									<input type="text" name="apellido" id="apellido" placeholder="¿cuál es tu apellido?">
+							</div>
+						
+							<div class="edad">
+								<p>Decinos tu edad</p>
+									<select name="edad">
+										<option value="dinosedad" selected disabled>Decinos tu edad</option>
+										<option value="18a25">18 - 25</option>
+										<option value="26a30">26 - 30</option>
+										<option value="31a40">31 - 40</option>
+										<option value="41a50">41 - 50</option>
+										<option value="51a60">51 - 60</option>
+										<option value="61a70">61 - 70</option>
+										<option value="71a80">71 - 80</option>
+										<option value="81a90">81 - 90</option>
+									</select>
+							</div>				
+						
+							<div class="sexo">		
+								<label for="sexo">Sexo</label>
+									<label for="sexo">Femenino</label>
+									<input type="radio" name="sexo" value="F" id="Femenino">
+									<label for="sexo">Masculino</label>
+									<input type="radio" name="sexo" value="M" id="Masculino">
+									<label for="sexo">Prefiero no decirlo</label>
+									<input type="radio" name="sexo" value="NC" id="No Contesta">
+							</div>
+						
+							<div class="conoces">	
+								<label for="conoces">¿Conoces del Ron?</label>
+									<label for="conocesron">SI</label>
+										<input type="checkbox" name="conoces" value="Si" id="Si">
+									<label for="conocesron">NO</label>
+										<input type="checkbox" name="conoces" value="No" id="No">
+									<label for="conocesron">Quiero Aprender</label>
+										<input type="checkbox" name="conoces" value="quieroaprender" id="quieroaprender">
+							</div>
+						
+							<div class="comentarios">
+								<label for="comentarios">Comentarios</label>
+									<textarea placeholder="Queremos saber de ti"></textarea>
+							</div>
+						
+							<div class="botones">
+								<input type="submit" value="Enviar">
+								<input type="reset" value="Limpiar">
+								<input type="button" value="Aun no decido"> 
+							</div>
+					</form>
+			</div>
+			<footer class="contenedorMenu_footer row">
+				<div id="encontranosEn">
+					Buscá a Ron Club
+				</div>
+				<div class="redesSociales">
+						<img src="fotos/RRSS/fbk.jpg" alt="facebook" class="red-facebook" alt="facebook">
+						<img src="fotos/RRSS/ig.jpg" alt="instagram" class="red-instagram" alt="instagram">
+						<img src="fotos/RRSS/tw.jpg" alt="twitter" class="red-twitter" alt="twitter">
+				</div>
+				<div class="datosFooter">
+						Victoria Guedez - 2021
+				</div>
+			</footer>
+			<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>	
+		</body>
+	</html>
