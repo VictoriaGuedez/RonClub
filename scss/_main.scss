@@ -4,11 +4,7 @@
     box-sizing: border-box;
 }
 .container-fluid {
-    width: $ancho;
     height: $alto;
-    padding: 0;
-    margin-left: 2px;
-    margin-right: 2px;
     @if $colorfondouno == #040f16{
         background-color: $colorfondouno;
     } @else if $colorfondodos == #141204{
@@ -45,7 +41,7 @@
 }
 .contenedorMenu {
     background-color: radial-gradient(circle, #043bff 16%, #370488 51%, #009bff 90%);
-    padding: 0;
+    padding: 1px;
 }
 .navbar-brand{
     color: #fff;
@@ -66,8 +62,6 @@
 }
 .vinculoWhatsapp {
     display: block;
-    width: 70px;
-    height: 70px;
     color: #fff;
     position: fixed;
     right: 20px;
@@ -78,7 +72,7 @@
     z-index: 999;
 } 
 .vinculoWhatsapp:hover {
-    transform: scale(2);
+    transform: scale(1.5);
 }
 .contenedorpresentacion {
     @include cajacontenedor($letra, $colorcajauno);
