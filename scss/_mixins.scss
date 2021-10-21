@@ -1,4 +1,4 @@
-@mixin cajamenu($ancho){
+@mixin cajamenu($ancho) {
     background: radial-gradient(circle, #043bff 16%, #370488 51%, #009bff 90%);
     width: $ancho;
     height: 20%;
@@ -8,7 +8,8 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-@mixin cajacontenedor($letra, $colorcajauno){
+
+@mixin cajacontenedor($letra, $colorcajauno) {
     font-family: $letra;
     display: flex;
     flex-flow: row wrap;
@@ -16,7 +17,8 @@
     background-color: $colorfondotres;
     margin-bottom: 4px;
 }
-@mixin tituloprincipal($letra, $sizetitulo){
+
+@mixin tituloprincipal($letra, $sizetitulo) {
     font-family: $letra;
     display: flex;
     flex-flow: row wrap;
@@ -25,7 +27,8 @@
     font-size: 3em;
     font-size: $sizetitulo;
 }
-@mixin textouno ($letra, $colorletracinco){
+
+@mixin textouno ($letra, $colorletracinco) {
     font-family: $letra;
     display: flex;
     flex-flow: row wrap;
@@ -33,9 +36,10 @@
     font-size: 1em;
     padding: 0 20px 0 20px;
     margin: 20px;
-    color: $colorletracinco; 
+    color: $colorletracinco;
 }
-@mixin cajas ($ancho){
+
+@mixin cajas ($ancho) {
     width: $ancho/3;
     display: inline-flex;
     flex-direction: row;
