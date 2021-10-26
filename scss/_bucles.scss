@@ -1,26 +1,18 @@
 @for $i from 1 through 8 {
     .titulo-#{$i} {
         color: #dbd2e8;
-        font-size: 2em;
+        display: flex;
+        font-size: 3em;
         justify-content: center;
     }
 }
 
 @for $a from 1 through 8 {
-    .titulo-#{$a} {
-        font-size: 2em
-    }
-}
-
-@for $b from 1 through 8 {
-    .titulo-#{$b} {
-        display: flex
-    }
-}
-
-@for $c from 1 through 8 {
-    .titulo-#{$c} {
-        justify-content: center
+    .subtitulo-#{$a} {
+        font-size: 2;
+        display: flex;
+        font-size: 2em;
+        justify-content: center;
     }
 }
 

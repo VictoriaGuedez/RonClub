@@ -1,113 +1,97 @@
 .titulo-1 {
   color: #dbd2e8;
-  font-size: 2em;
+  display: flex;
+  font-size: 3em;
   justify-content: center; }
 
 .titulo-2 {
   color: #dbd2e8;
-  font-size: 2em;
+  display: flex;
+  font-size: 3em;
   justify-content: center; }
 
 .titulo-3 {
   color: #dbd2e8;
-  font-size: 2em;
+  display: flex;
+  font-size: 3em;
   justify-content: center; }
 
 .titulo-4 {
   color: #dbd2e8;
-  font-size: 2em;
+  display: flex;
+  font-size: 3em;
   justify-content: center; }
 
 .titulo-5 {
   color: #dbd2e8;
-  font-size: 2em;
+  display: flex;
+  font-size: 3em;
   justify-content: center; }
 
 .titulo-6 {
   color: #dbd2e8;
-  font-size: 2em;
+  display: flex;
+  font-size: 3em;
   justify-content: center; }
 
 .titulo-7 {
   color: #dbd2e8;
-  font-size: 2em;
+  display: flex;
+  font-size: 3em;
   justify-content: center; }
 
 .titulo-8 {
   color: #dbd2e8;
+  display: flex;
+  font-size: 3em;
+  justify-content: center; }
+
+.subtitulo-1 {
+  font-size: 2;
+  display: flex;
   font-size: 2em;
   justify-content: center; }
 
-.titulo-1 {
-  font-size: 2em; }
-
-.titulo-2 {
-  font-size: 2em; }
-
-.titulo-3 {
-  font-size: 2em; }
-
-.titulo-4 {
-  font-size: 2em; }
-
-.titulo-5 {
-  font-size: 2em; }
-
-.titulo-6 {
-  font-size: 2em; }
-
-.titulo-7 {
-  font-size: 2em; }
-
-.titulo-8 {
-  font-size: 2em; }
-
-.titulo-1 {
-  display: flex; }
-
-.titulo-2 {
-  display: flex; }
-
-.titulo-3 {
-  display: flex; }
-
-.titulo-4 {
-  display: flex; }
-
-.titulo-5 {
-  display: flex; }
-
-.titulo-6 {
-  display: flex; }
-
-.titulo-7 {
-  display: flex; }
-
-.titulo-8 {
-  display: flex; }
-
-.titulo-1 {
+.subtitulo-2 {
+  font-size: 2;
+  display: flex;
+  font-size: 2em;
   justify-content: center; }
 
-.titulo-2 {
+.subtitulo-3 {
+  font-size: 2;
+  display: flex;
+  font-size: 2em;
   justify-content: center; }
 
-.titulo-3 {
+.subtitulo-4 {
+  font-size: 2;
+  display: flex;
+  font-size: 2em;
   justify-content: center; }
 
-.titulo-4 {
+.subtitulo-5 {
+  font-size: 2;
+  display: flex;
+  font-size: 2em;
   justify-content: center; }
 
-.titulo-5 {
+.subtitulo-6 {
+  font-size: 2;
+  display: flex;
+  font-size: 2em;
   justify-content: center; }
 
-.titulo-6 {
+.subtitulo-7 {
+  font-size: 2;
+  display: flex;
+  font-size: 2em;
   justify-content: center; }
 
-.titulo-7 {
-  justify-content: center; }
-
-.titulo-8 {
+.subtitulo-8 {
+  font-size: 2;
+  display: flex;
+  font-size: 2em;
   justify-content: center; }
 
 .font-1em {
@@ -125,6 +109,7 @@
 .red-twitter {
   width: 50px; }
 
+/*comunes - aplicable a todas las paginas*/
 * {
   margin: 0;
   padding: 0;
@@ -132,10 +117,7 @@
 
 .container-fluid {
   height: 100%;
-  background-color: #040f16;
-  font-size: 18px;
-  font-family: "Heebo", sans-serif;
-  height: 100%; }
+  background-color: #040f16; }
 
 header {
   display: grid;
@@ -149,35 +131,50 @@ header {
       width: 100px;
       display: grid;
       justify-self: center; }
-    header .logo .ron {
-      color: #c5f4cb;
-      display: grid;
-      justify-self: center;
-      align-self: center; }
+      header .logo .logoRon .logoRon:hover {
+        transform: rotateY(45deg); }
+        header .logo .logoRon .logoRon:hover .ron {
+          color: #c5f4cb;
+          display: grid;
+          justify-self: center;
+          align-self: center; }
+  header .navbar,
+  header .nav-link {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+    header .navbar .nav-item:hover,
+    header .nav-link .nav-item:hover {
+      background-color: gray;
+      transform: scale(1); }
+      header .navbar .nav-item:hover .sr-only,
+      header .nav-link .nav-item:hover .sr-only {
+        color: gray; }
 
-.logoRon:hover {
-  transform: rotateY(45deg); }
-
-.navbar,
-.nav-link {
-  display: flex;
-  justify-content: center;
-  width: 100%; }
-
-.nav-item:hover {
-  background-color: grey;
-  transform: scale(1); }
+.vinculoWhatsapp {
+  display: block;
+  color: #fff;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999; }
+  .vinculoWhatsapp .vinculoWhatsapp:hover {
+    transform: scale(1.5); }
 
 footer {
   background-color: #0cbaba;
   background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
   display: flex;
   align-self: flex-end;
-  width: 100vw; }
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0; }
 
-.sr-only {
-  color: gray; }
-
+/*index*/
 .tarjetas {
   display: flex;
   flex-flow: row wrap;
@@ -190,25 +187,15 @@ footer {
   flex-wrap: wrap;
   justify-items: space-around; }
 
-.vinculoWhatsapp {
-  display: block;
-  color: #fff;
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  border-radius: 50%;
-  line-height: 80px;
-  text-align: center;
-  z-index: 999; }
-
-.vinculoWhatsapp:hover {
-  transform: scale(1.5); }
-
 .container {
   background-color: #003559;
   display: grid;
   justify-content: space-around;
   padding-bottom: 4px; }
+
+.textoClub {
+  display: flex;
+  justify-content: center; }
 
 .container-uno {
   background-color: #90AACB;
@@ -224,13 +211,6 @@ footer {
   justify-content: center;
   background-color: #003559;
   margin-bottom: 4px; }
-
-.textoClub {
-  display: flex;
-  justify-content: center; }
-
-.titulo-1 {
-  font-size: 3em; }
 
 #textoClub1 {
   font-family: "Heebo", sans-serif;
@@ -282,7 +262,6 @@ footer {
   flex-flow: row wrap;
   justify-content: center;
   font-weight: bold;
-  font-size: 3em;
   font-size: 3em; }
 
 .titulouno_caja {
@@ -343,21 +322,6 @@ footer {
   display: flex;
   justify-content: center; }
 
-.contenedorMenu_footer {
-  font-family: "Heebo", sans-serif;
-  color: white;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  justify-self: center;
-  flex-flow: row wrap;
-  align-content: flex-end;
-  color: white; }
-
-#redesSociales {
-  display: inline-flex;
-  padding: 6px; }
-
 .contenedorclub {
   display: flex;
   flex-flow: row wrap;
@@ -392,8 +356,8 @@ footer {
     background-color: #003559;
     color: #c5f4cb;
     display: grid;
-    width: 100vw;
-    height: 100vh; }
+    width: 100%;
+    height: 100%; }
   .tarjetas {
     color: black; }
   #accordionExample {
@@ -403,8 +367,8 @@ footer {
   footer {
     font-size: 15px;
     display: flex;
-    width: 100vw;
-    height: 10vh;
+    width: 100%;
+    height: 100%;
     align-content: flex-end; } }
 
 @media (max-width: 576px) {
@@ -412,8 +376,8 @@ footer {
     font-size: 15px;
     background-color: #59a5d8;
     color: #ffff;
-    width: 100vw;
-    height: auto;
+    width: 100%;
+    height: 100%;
     display: grid; }
   .tarjetas {
     color: black; }
@@ -423,8 +387,8 @@ footer {
     color: #605f5c; }
   footer {
     font-size: 10px;
-    width: 100vw;
-    height: auto;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-content: flex-end; } }
 
