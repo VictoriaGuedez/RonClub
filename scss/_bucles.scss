@@ -1,6 +1,6 @@
 @for $i from 1 through 8 {
     .titulo-#{$i} {
-        color: #dbd2e8;
+        color: $colorletraseis;
         display: flex;
         font-size: 3em;
         justify-content: center;
@@ -9,17 +9,11 @@
 
 @for $a from 1 through 8 {
     .subtitulo-#{$a} {
+        color: $colorletratres;
         font-size: 2;
         display: flex;
         font-size: 2em;
         justify-content: center;
-    }
-}
-
-@each $d in 1em,
-2em {
-    .font-#{$d} {
-        font-size: $d;
     }
 }
 

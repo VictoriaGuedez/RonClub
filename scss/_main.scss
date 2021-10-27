@@ -1,10 +1,11 @@
 /*comunes - aplicable a todas las paginas*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-                                        
+
 .container-fluid {
     height: $alto;
     @if $colorfondouno==#040f16 {
@@ -12,54 +13,55 @@
     }
     @else if $colorfondodos==#141204 {
         background-color: #59a5d8;
-    font-size: 18px;
-    font-family: $letra;
-    height: 100%;
+        font-size: 18px;
+        font-family: $letra;
+        height: 100%;
     }
 }
-                                        
+
 header {
-    display: grid;
-    justify-content: center;
-    background-color: #0cbaba;
-    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    @include cajamenu($ancho);
     .logo {
-        display: flex;
+        display: $flexible;
         justify-content: center;
         .logoRon {
             width: 100px;
             display: grid;
             justify-self: center;
+        }
         .logoRon:hover {
             transform: rotateY(45deg);
+        }
         .ron {
             color: $colorletracinco;
             display: grid;
             justify-self: center;
             align-self: center;
         }
+        .tituloprincipal {
+            @include nombre($letra, $colorletraseis, $flexible);
+            font-size: 3em;
+            align-content: center;
         }
-        }
-    }                                
+    }
     .navbar,
-        .nav-link {
-            display: flex;
-            justify-content: center;
-            width: 100%;
+    .nav-link {
+        display: $flexible;
+        justify-content: center;
+        width: 100%;
         .nav-item:hover {
-            background-color: gray;
+            background-color: $colorletratres;
             transform: scale(1);
-        .sr-only {
-            color: gray;
+            .sr-only {
+                color: $colorletratres;
+            }
         }
-        }
-        }
-    
+    }
 }
 
 .vinculoWhatsapp {
     display: block;
-    color: #fff;
+    color: $colorletraseis;
     position: fixed;
     right: 20px;
     bottom: 20px;
@@ -72,56 +74,67 @@ header {
     }
 }
 
-footer {
-    background-color: #0cbaba;
-    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
-    display: flex;
-    align-self: flex-end;
+.contenedorAliadosComerciales {
+    font-family: $letra;
+    display: $flexible;
+    flex-flow: row wrap;
     justify-content: center;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-}                                        
+    background-color: $colorfondotres;
+    margin-bottom: 4px;
+}
 
-                                        
-/*index*/                                        
+footer {
+    @include cajamenu($ancho);
+    display: $flexible;
+    flex-flow: row wrap;
+    .titulo {
+        font-family: $letra;
+        color: $colorletraseis;
+        display: $flexible;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+}
+
+
+/*index*/
+
 .tarjetas {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     padding-right: 2px;
 }
+
 .card {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-items: space-around;
-}                                       
+}
+
 .container {
-    background-color: #003559;
+    background-color: $colorfondotres;
     display: grid;
     justify-content: space-around;
     padding-bottom: 4px;
 }
+
 .textoClub {
     display: flex;
     justify-content: center;
 }
+
 .container-uno {
-    background-color: #90AACB;
+    background-color: $colorfondocuatro;
     display: grid;
     justify-content: space-around;
     padding-bottom: 4px;
 }
-.contenedorpresentacion,
-.contenedorAliadosComerciales {
-    font-family: "Heebo", sans-serif;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    background-color: #003559;
-    margin-bottom: 4px;
-}
+
 #textoClub1 {
     font-family: "Heebo", sans-serif;
     display: flex;
@@ -130,8 +143,9 @@ footer {
     font-size: 1em;
     padding: 0 20px 0 20px;
     margin: 20px;
-    color: #c5f4cb;
+    color: $colorletracinco;
 }
+
 .cajitas {
     width: 33.33333vw;
     height: 40%;
@@ -141,43 +155,47 @@ footer {
     justify-content: center;
     padding: 2px;
 }
-                                        
+
 .caja {
     width: 100%/3;
-    background-color: #035397;
+    background-color: $colorfondotres;
     display: flex;
     justify-content: center;
     margin-bottom: 4px;
 }
-                                        
+
 .caja .caja_foto {
     width: 250px;
     height: 300px;
     display: flex;
     justify-content: center;
-}                                        
+}
+
 .cajas {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #B5EAEA;
+    background-color: $colorfondoseis;
     margin-bottom: 4px;
     padding: 4px;
 }
+
 .cajas .cajas_foto {
     width: 200px;
-}    
+}
+
 .cajas .cajas_titulo {
-    font-family: "Heebo", sans-serif;
+    font-family: $letra;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     font-weight: bold;
     font-size: 3em;
 }
+
 .titulouno_caja {
-    font-family: "Heebo", sans-serif;
+    font-family: $letra;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -186,8 +204,9 @@ footer {
     font-weight: bold;
     font-size: 3em;
     font-size: 1.5em;
-    color: #8AC4D0;
+    color: $colorletracinco;
 }
+
 #textoClub1_caja {
     font-family: "Heebo", sans-serif;
     display: flex;
@@ -196,75 +215,86 @@ footer {
     font-size: 1em;
     padding: 0 20px 0 20px;
     margin: 20px;
-    color: white;
+    color: $colorletraseis;
 }
+
 .carousel-inner {
     width: 200px;
+    .carousel-item {
+        display: $flexible;
+        justify-content: center;
+    }
 }
-                                        
+
 #titulodos {
- font-family: "Heebo", sans-serif;
- display: flex;
- flex-flow: row wrap;
- justify-content: center;
- font-weight: bold;
- font-size: 3em;
- font-size: 1.5em;
- align-content: center;
- color: #dbd2e8;
+    font-family: "Heebo", sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 3em;
+    font-size: 1.5em;
+    align-content: center;
+    color: $colorletracuatro;
 }
+
 .contenedorTablaIngredientesRon {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    color: #c5f4cb;
+    color: $colorletracinco;
 }
-.encabezadoTabla {
-    color: #c5f4cb;
+
+.encabezadoTabla .cuerpoTabla {
+    color: $colorletracinco;
 }
-.cuerpoTabla {
-    color: #c5f4cb;
-}
+
 .contenedorVideos {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
+
 .card {
     display: flex;
     justify-content: center;
 }
+
 .contenedorclub {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    background-color: #90AACB;
+    background-color: $colorfondocuatro;
     margin-bottom: 4px;
 }
+
 .contenedorclub .contenedorclub_foto {
     width: 200px;
 }
+
 .titulo-5 {
-    display: flex;
+    display: $flexible;
     justify-content: center;
     flex-direction: row;
 }
+
 .tituloClub {
-    display: flex;
+    display: $flexible;
     justify-content: center;
 }
-                                        
+
 .formularioRon {
-    display: flex;
+    display: $flexible;
     justify-content: center;
-    background-color: #59a5d8;
+    background-color: $colorfondocuatro;
     padding: 4px;
 }
+
 .fotoBeneficio {
     width: 200px;
 }
-                                        
+
 @media (max-width: 768px) {
     body {
         font-size: 20px;
@@ -291,6 +321,7 @@ footer {
         align-content: flex-end;
     }
 }
+
 @media (max-width: 576px) {
     body {
         font-size: 15px;
@@ -315,5 +346,5 @@ footer {
         height: 100%;
         display: flex;
         align-content: flex-end;
-    }                                        
+    }
 }
