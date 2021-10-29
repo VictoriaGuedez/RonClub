@@ -99,11 +99,10 @@
 }
 
 .subtitulo-1 {
-  color: #605f5c;
+  color: #041c42;
   font-size: 2;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   font-size: 2em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -111,11 +110,10 @@
 }
 
 .subtitulo-2 {
-  color: #605f5c;
+  color: #041c42;
   font-size: 2;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   font-size: 2em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -123,11 +121,10 @@
 }
 
 .subtitulo-3 {
-  color: #605f5c;
+  color: #041c42;
   font-size: 2;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   font-size: 2em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -135,11 +132,10 @@
 }
 
 .subtitulo-4 {
-  color: #605f5c;
+  color: #041c42;
   font-size: 2;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   font-size: 2em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -147,11 +143,10 @@
 }
 
 .subtitulo-5 {
-  color: #605f5c;
+  color: #041c42;
   font-size: 2;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   font-size: 2em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -159,11 +154,10 @@
 }
 
 .subtitulo-6 {
-  color: #605f5c;
+  color: #041c42;
   font-size: 2;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   font-size: 2em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -171,11 +165,10 @@
 }
 
 .subtitulo-7 {
-  color: #605f5c;
+  color: #041c42;
   font-size: 2;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   font-size: 2em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -183,15 +176,94 @@
 }
 
 .subtitulo-8 {
-  color: #605f5c;
+  color: #041c42;
   font-size: 2;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   font-size: 2em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.container-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #59a5d8;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 4px;
+}
+
+.container-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #59a5d8;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 4px;
+}
+
+.container-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #59a5d8;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 4px;
+}
+
+.container-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #59a5d8;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 4px;
+}
+
+.container-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #59a5d8;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 4px;
+}
+
+.container-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #59a5d8;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 4px;
+}
+
+.container-7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #59a5d8;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 4px;
+}
+
+.container-8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #59a5d8;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 4px;
 }
 
 .red-facebook {
@@ -322,6 +394,19 @@ header .nav-link .nav-item:hover .sr-only {
           transform: scale(1.5);
 }
 
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  justify-items: space-around;
+}
+
 .contenedorAliadosComerciales {
   font-family: "Heebo", sans-serif;
   display: -webkit-box;
@@ -336,6 +421,34 @@ header .nav-link .nav-item:hover .sr-only {
           justify-content: center;
   background-color: #003559;
   margin-bottom: 4px;
+}
+
+.carousel-item {
+  width: 200px;
+}
+
+.carousel-inner {
+  width: 200px;
+}
+
+.tituloAliados {
+  font-family: "Heebo", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  font-size: 3em;
+  font-size: 1.5em;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  color: gray;
 }
 
 footer {
@@ -375,7 +488,7 @@ footer .titulo {
   font-size: 1.5em;
 }
 
-/*index*/
+/*index beneficios contacto*/
 .tarjetas {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -389,39 +502,9 @@ footer .titulo {
   padding-right: 2px;
 }
 
-.card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  justify-items: space-around;
-}
-
+/*index*/
 .container {
   background-color: #003559;
-  display: -ms-grid;
-  display: grid;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding-bottom: 4px;
-}
-
-.textoClub {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.container-uno {
-  background-color: #59a5d8;
   display: -ms-grid;
   display: grid;
   -ms-flex-pack: distribute;
@@ -445,71 +528,8 @@ footer .titulo {
   color: #c5f4cb;
 }
 
-.cajitas {
-  width: 33.33333vw;
-  height: 40%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 2px;
-}
-
-.caja {
-  width: 100%/3;
-  background-color: #003559;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 4px;
-}
-
-.caja .caja_foto {
-  width: 250px;
-  height: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.cajas {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #B5EAEA;
-  margin-bottom: 4px;
-  padding: 4px;
-}
-
-.cajas .cajas_foto {
-  width: 200px;
-}
-
-.cajas .cajas_titulo {
-  font-family: "Heebo", sans-serif;
+/*contenido*/
+.container-a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -517,78 +537,10 @@ footer .titulo {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-weight: bold;
-  font-size: 3em;
-}
-
-.titulouno_caja {
-  font-family: "Heebo", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-weight: bold;
-  font-size: 3em;
-  font-size: 1.5em;
-  color: #c5f4cb;
-}
-
-#textoClub1_caja {
-  font-family: "Heebo", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  text-align: center;
-  font-size: 1em;
-  padding: 0 20px 0 20px;
-  margin: 20px;
-  color: #ffffff;
-}
-
-.carousel-inner {
-  width: 200px;
-}
-
-.carousel-inner .carousel-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#titulodos {
-  font-family: "Heebo", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-weight: bold;
-  font-size: 3em;
-  font-size: 1.5em;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  color: #dbd2e8;
+  background-color: gray;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 4px;
 }
 
 .contenedorTablaIngredientesRon {
@@ -624,7 +576,8 @@ footer .titulo {
           justify-content: center;
 }
 
-.card {
+/*tienda*/
+.caja {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -633,47 +586,16 @@ footer .titulo {
           justify-content: center;
 }
 
-.contenedorclub {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.container-uno {
   background-color: #59a5d8;
-  margin-bottom: 4px;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 4px;
 }
 
-.contenedorclub .contenedorclub_foto {
-  width: 200px;
-}
-
-.titulo-5 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.tituloClub {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
+/*formulario*/
 .formularioRon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -683,10 +605,6 @@ footer .titulo {
           justify-content: center;
   background-color: #59a5d8;
   padding: 4px;
-}
-
-.fotoBeneficio {
-  width: 200px;
 }
 
 @media (max-width: 768px) {

@@ -9,11 +9,20 @@
 
 @for $a from 1 through 8 {
     .subtitulo-#{$a} {
-        color: $colorletratres;
+        color: $colorletrados;
         font-size: 2;
-        display: flex;
+        display: grid;
         font-size: 2em;
         justify-content: center;
+    }
+}
+
+@for $b from 1 through 8 {
+    .container-#{$b} {
+        display: $flexible;
+        background-color: $colorfondocuatro;
+        justify-content: space-around;
+        padding-bottom: 4px;
     }
 }
 

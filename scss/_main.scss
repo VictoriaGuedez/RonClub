@@ -74,6 +74,13 @@ header {
     }
 }
 
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: space-around;
+}
+
 .contenedorAliadosComerciales {
     font-family: $letra;
     display: $flexible;
@@ -81,6 +88,26 @@ header {
     justify-content: center;
     background-color: $colorfondotres;
     margin-bottom: 4px;
+}
+
+.carousel-item {
+    width: 200px;
+}
+
+.carousel-inner {
+    width: 200px;
+}
+
+.tituloAliados {
+    font-family: $letra;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 3em;
+    font-size: 1.5em;
+    align-content: center;
+    color: $colorfondocinco;
 }
 
 footer {
@@ -100,7 +127,7 @@ footer {
 }
 
 
-/*index*/
+/*index beneficios contacto*/
 
 .tarjetas {
     display: flex;
@@ -109,12 +136,8 @@ footer {
     padding-right: 2px;
 }
 
-.card {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-items: space-around;
-}
+
+/*index*/
 
 .container {
     background-color: $colorfondotres;
@@ -123,119 +146,26 @@ footer {
     padding-bottom: 4px;
 }
 
-.textoClub {
-    display: flex;
-    justify-content: center;
+#textoClub1 {
+    font-family: $letra;
+    display: $flexible;
+    flex-flow: row wrap;
+    text-align: center;
+    font-size: 1em;
+    padding: 0 20px 0 20px;
+    margin: 20px;
+    color: $colorletracinco;
 }
 
-.container-uno {
-    background-color: $colorfondocuatro;
-    display: grid;
+
+/*contenido*/
+
+.container-a {
+    display: $flexible;
+    flex-flow: row wrap;
+    background-color: $colorfondocinco;
     justify-content: space-around;
     padding-bottom: 4px;
-}
-
-#textoClub1 {
-    font-family: "Heebo", sans-serif;
-    display: flex;
-    flex-flow: row wrap;
-    text-align: center;
-    font-size: 1em;
-    padding: 0 20px 0 20px;
-    margin: 20px;
-    color: $colorletracinco;
-}
-
-.cajitas {
-    width: 33.33333vw;
-    height: 40%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 2px;
-}
-
-.caja {
-    width: 100%/3;
-    background-color: $colorfondotres;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 4px;
-}
-
-.caja .caja_foto {
-    width: 250px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-}
-
-.cajas {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: $colorfondoseis;
-    margin-bottom: 4px;
-    padding: 4px;
-}
-
-.cajas .cajas_foto {
-    width: 200px;
-}
-
-.cajas .cajas_titulo {
-    font-family: $letra;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 3em;
-}
-
-.titulouno_caja {
-    font-family: $letra;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 3em;
-    font-size: 1.5em;
-    color: $colorletracinco;
-}
-
-#textoClub1_caja {
-    font-family: "Heebo", sans-serif;
-    display: flex;
-    flex-flow: row wrap;
-    text-align: center;
-    font-size: 1em;
-    padding: 0 20px 0 20px;
-    margin: 20px;
-    color: $colorletraseis;
-}
-
-.carousel-inner {
-    width: 200px;
-    .carousel-item {
-        display: $flexible;
-        justify-content: center;
-    }
-}
-
-#titulodos {
-    font-family: "Heebo", sans-serif;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 3em;
-    font-size: 1.5em;
-    align-content: center;
-    color: $colorletracuatro;
 }
 
 .contenedorTablaIngredientesRon {
@@ -256,43 +186,29 @@ footer {
     justify-content: center;
 }
 
-.card {
-    display: flex;
+
+/*tienda*/
+
+.caja {
+    display: $flexible;
     justify-content: center;
 }
 
-.contenedorclub {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+.container-uno {
     background-color: $colorfondocuatro;
-    margin-bottom: 4px;
+    display: grid;
+    justify-content: space-around;
+    padding-bottom: 4px;
 }
 
-.contenedorclub .contenedorclub_foto {
-    width: 200px;
-}
 
-.titulo-5 {
-    display: $flexible;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.tituloClub {
-    display: $flexible;
-    justify-content: center;
-}
+/*formulario*/
 
 .formularioRon {
     display: $flexible;
     justify-content: center;
     background-color: $colorfondocuatro;
     padding: 4px;
-}
-
-.fotoBeneficio {
-    width: 200px;
 }
 
 @media (max-width: 768px) {
