@@ -617,6 +617,9 @@ footer .titulo {
     width: 100%;
     height: 100%;
   }
+  header {
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+  }
   .tarjetas {
     color: black;
   }
@@ -647,6 +650,9 @@ footer .titulo {
     height: 100%;
     display: -ms-grid;
     display: grid;
+  }
+  header {
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
   }
   .tarjetas {
     color: black;
