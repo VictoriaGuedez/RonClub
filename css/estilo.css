@@ -193,7 +193,7 @@
   background-color: #59a5d8;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .container-2 {
@@ -203,7 +203,7 @@
   background-color: #59a5d8;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .container-3 {
@@ -213,7 +213,7 @@
   background-color: #59a5d8;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .container-4 {
@@ -223,7 +223,7 @@
   background-color: #59a5d8;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .container-5 {
@@ -233,7 +233,7 @@
   background-color: #59a5d8;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .container-6 {
@@ -243,7 +243,7 @@
   background-color: #59a5d8;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .container-7 {
@@ -253,7 +253,7 @@
   background-color: #59a5d8;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .container-8 {
@@ -263,7 +263,7 @@
   background-color: #59a5d8;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .red-facebook {
@@ -300,6 +300,7 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 4px;
 }
 
 header .logo {
@@ -405,6 +406,7 @@ header .nav-link .nav-item:hover .sr-only {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   justify-items: space-around;
+  margin-bottom: 4px;
 }
 
 .contenedorAliadosComerciales {
@@ -467,6 +469,10 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  height: auto;
 }
 
 footer .titulo {
@@ -500,6 +506,7 @@ footer .titulo {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding-right: 2px;
+  margin-bottom: 4px;
 }
 
 /*index*/
@@ -509,7 +516,7 @@ footer .titulo {
   display: grid;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 #textoClub1 {
@@ -540,7 +547,7 @@ footer .titulo {
   background-color: gray;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .contenedorTablaIngredientesRon {
@@ -576,6 +583,10 @@ footer .titulo {
           justify-content: center;
 }
 
+.contenedorVideos .video {
+  margin-right: 10px;
+}
+
 /*tienda*/
 .caja {
   display: -webkit-box;
@@ -595,16 +606,20 @@ footer .titulo {
   padding-bottom: 4px;
 }
 
+/*beneficios*/
+.beneficiosRon {
+  margin-bottom: 4px;
+}
+
 /*formulario*/
-.formularioRon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #59a5d8;
-  padding: 4px;
+.formulario {
+  color: #ffffff;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.formulario .nombre {
+  margin-right: 5px;
 }
 
 @media (max-width: 768px) {
