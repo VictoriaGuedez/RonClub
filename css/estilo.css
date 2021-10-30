@@ -294,7 +294,7 @@
 header {
   background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
   width: 100%;
-  height: 20%;
+  height: auto;
   display: -ms-grid;
   display: grid;
   -webkit-box-pack: center;
@@ -454,7 +454,7 @@ header .nav-link .nav-item:hover .sr-only {
 footer {
   background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
   width: 100%;
-  height: 20%;
+  height: auto;
   display: -ms-grid;
   display: grid;
   -webkit-box-pack: center;
@@ -655,100 +655,6 @@ footer .titulo {
   header {
     background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
     height: auto;
-  }
-  .tarjetas {
-    color: black;
-  }
-  #accordionExample {
-    color: #605f5c;
-  }
-  .card-body {
-    color: #605f5c;
-  }
-  footer {
-    font-size: 10px;
-    width: 100%;
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-line-pack: end;
-        align-content: flex-end;
-  }
-}
-/*# sourceMappingURL=estilo.css.map */: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.tituloClub {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.formularioRon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #59a5d8;
-  padding: 4px;
-}
-
-.fotoBeneficio {
-  width: 200px;
-}
-
-@media (max-width: 768px) {
-  body {
-    font-size: 20px;
-    background-color: #003559;
-    color: #c5f4cb;
-    display: -ms-grid;
-    display: grid;
-    width: 100%;
-    height: 100%;
-  }
-  .tarjetas {
-    color: black;
-  }
-  #accordionExample {
-    color: #605f5c;
-  }
-  #headingFour {
-    color: #605f5c;
-  }
-  footer {
-    font-size: 15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    -ms-flex-line-pack: end;
-        align-content: flex-end;
-  }
-}
-
-@media (max-width: 576px) {
-  body {
-    font-size: 15px;
-    background-color: #59a5d8;
-    color: #ffffff;
-    width: 100%;
-    height: 100%;
-    display: -ms-grid;
-    display: grid;
   }
   .tarjetas {
     color: black;
