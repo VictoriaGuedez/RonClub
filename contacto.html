@@ -105,14 +105,14 @@
                 <div class="edad">
                     <label for="sexo">Edad</label>
                     <select class="form-control form-control-sm">
-                            <option>18 - 30</option>
-                            <option>31 - 40</option>
-                            <option>41 - 50</option>
-                            <option>51 - 60</option>
-                            <option>61 - 70</option>
-                            <option>71 - 80</option>
-                            <option>81 - 90</option>
-                        </select>
+                        <option>18 - 30</option>
+                        <option>31 - 40</option>
+                        <option>41 - 50</option>
+                        <option>51 - 60</option>
+                        <option>61 - 70</option>
+                        <option>71 - 80</option>
+                        <option>81 - 90</option>
+                    </select>
                 </div>
                 <div>
                     <label for="exampleInputEmail1">Correo Electronico</label>
@@ -123,20 +123,20 @@
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
                         <label class="form-check-label" for="flexRadioDefault2">
-                                Hombre
-                            </label>
+                            Hombre
+                        </label>
                     </div>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
-                                Mujer
-                            </label>
+                            Mujer
+                        </label>
                     </div>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
-                                X
-                            </label>
+                            X
+                        </label>
                     </div>
                 </div>
                 <div class="comentarios">
@@ -144,11 +144,9 @@
                     <textarea placeholder="Queremos saber de ti"></textarea>
                 </div>
                 <div class="botones">
-                    <button type="button" class="btn btn-primary">Enviar</button>
-                    <button type="button" class="btn btn-primary">Limpiar</button>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Enviar</button>
                 </div>
-        </div>
-        </form>
+            </form>
         </div>
     </main>
     <footer>
@@ -163,6 +161,19 @@
         </div>
         <p class="titulo">Victoria Guedez - 2021</p>
     </footer>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ron Club</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+                </div>
+                <div class="modal-body">
+                    Muy pronto te podrás registrar
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF " crossorigin="anonymous"></script>
