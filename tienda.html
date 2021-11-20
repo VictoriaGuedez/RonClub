@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
     <title>Tienda</title>
@@ -12,11 +12,11 @@
 </head>
 
 <body class="container-fluid">
-    <header class="header">
+    <header class="encabezado">
         <div class="logo">
             <img class="logoRon" src=fotos/LogoRonClubBlanco.png alt="Logo Ron Club">
-            <a ref="contactoronclubguedez.html" value="content" target="_BLANK"></a>
-            <h1 class="tituloprincipal">RON CLUB</h1>
+            <a href="contacto.html" value="content" target="_BLANK"></a>
+            <h1 class="tituloUno">RON CLUB</h1>
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,43 +25,38 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">INICIO<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">INICIO</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="contenido.html">CONTENIDO<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="contenido.html">CONTENIDO</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="beneficios.html">BENEFICIOS<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="beneficios.html">BENEFICIOS</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="contacto.html">UNETE<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="contacto.html">UNETE</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <div class="vinculoWhatsapp">
-            <a href="https://api.whatsapp.com/send?phone=+5491168021068" target="_blank">
-                <img src="fotos/whatsapp.png" alt="logo whatsapp">
-            </a>
-        </div>
-        <h2 class="titulo-4">Bienvenidos a nuestra tienda</h2>
-        <div class="tarjetas row">
-            <div class="card" style="width: 18rem;">
+        <section class="tarjetas row">
+            <h2 class="titulo-4">Bienvenidos a nuestra tienda</h2>
+            <div class="card">
                 <img src="fotos/diplomatico.jpg" class="card-img-top" alt="Ron Santa Teresa">
                 <div class="card-body">
                     <h3 class="subtitulo-2">Ron Diplomatico</h3>
                     <p class="card-text">Diplomático Reserva Exclusiva es una mezcla de los mejores rones añejados hasta 12 años cuidadosamente seleccionados por Maestros Roneros. Su cuerpo único y excelente equilibrio, hacen de este galardonado ron, una referencia para los
                         amantes y los conocedores de ron de todo el mundo. En nariz abre con aromas de cáscara de naranja, caramelo y regaliz; en paladar comienza suave y continua con notas dulces de caramelo, ofreciendo un final seductor y duradero.</p>
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                        <p>
-                            COMPRAR
-                        </p>
-                    </button>
+                            <p>
+                                COMPRAR
+                            </p>
+                        </button>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <img src="fotos/cacique500.jpg" class="card-img-top" alt="Ron Santa Teresa">
                 <div class="card-body">
                     <h3 class="subtitulo-2">Ron Cacique</h3>
@@ -70,13 +65,13 @@
                         8 años. Las extremas condiciones de temperatura y humedad de la región generan un envejecimiento más intenso, llegando a evaporarse hasta un 9% al año del contenido de la barrica (a esto se le conoce como el Tributo de los Ángeles).
                     </p>
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                        <p>
-                            COMPRAR
-                        </p>
-                    </button>
+                            <p>
+                                COMPRAR
+                            </p>
+                        </button>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <img src="fotos/1796.jpg" class="card-img-top" alt="Ron Santa Teresa">
                 <div class="card-body">
                     <h3 class="subtitulo-2">Ron Santa Teresa</h3>
@@ -85,14 +80,15 @@
                         y chocolate negro. Su sabor es meloso y complejo, ofrece notas de tabaco y cuero, tostado, ahumado. Es un ron redondo, con el balance que sólo el método de Solera puede aportar. De cuerpo firme y al mismo tiempo delicado y elegante,
                         aterciopelado. Al final evoca los atributos que le confieren los robles que lo añejaron</p>
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                        <p>
-                            COMPRAR
-                        </p>
-                    </button>
+                            <p>
+                                COMPRAR
+                            </p>
+                        </button>
                 </div>
             </div>
-        </div>
-        <div class="container">
+            </div>
+        </section>
+        <section class="container">
             <div class="contenedorAliadosComerciales">
                 <p class="tituloAliados"><span>Aliados Comerciales del Ron Club</span></p>
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -125,16 +121,20 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
     <footer>
         <p class="titulo">Buscá a Ron Club</p>
         <div class="redesSociales">
-            <a class="redes" href="https://www.facebook.com"><img src=" fotos/RRSS/fbk.jpg" alt="facebook" class="red-facebook">
+            <a class="redes" href="https://www.facebook.com">
+                <img src=" fotos/RRSS/fbk.jpg" alt="facebook" class="red-facebook">
             </a>
-            <a class="redes" href="https://www.instagram.com"><img src="fotos/RRSS/ig.jpg" alt="instagram" class="red-instagram">
+            <a class="redes" href="https://www.instagram.com">
+                <img src="fotos/RRSS/ig.jpg" alt="instagram" class="red-instagram">
             </a>
-            <a class="redes" href="https://www.twitter.com"><img src="fotos/RRSS/tw.jpg" alt="twitter" class="red-twitter">
+            <a class="redes" href="https://www.twitter.com">
+                <img src="fotos/RRSS/tw.jpg" alt="twitter" class="red-twitter">
+            </a>
         </div>
         <p class="titulo">Victoria Guedez - 2021</p>
     </footer>
@@ -154,6 +154,11 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="vinculoWhatsapp">
+        <a href="https://api.whatsapp.com/send?phone=+5491168021068" target="_blank">
+            <img src="fotos/whatsapp.png" alt="logo whatsapp">
+        </a>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
