@@ -392,6 +392,20 @@ header .navbar-nav .nav-link .nav-item:hover {
   width: 18rem;
 }
 
+.card .boton {
+  background-color: #003559;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .contenedorAliadosComerciales {
   font-family: "Heebo", sans-serif;
   display: -webkit-box;

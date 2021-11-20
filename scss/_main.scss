@@ -81,6 +81,15 @@
         margin-bottom: 4px;
         padding: 5px;
         width: 18rem;
+        .boton {
+            background-color: $colorfondotres;
+            color: $colorletraseis;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: $flexible;
+            justify-content: center;
+        }
     }
     
     .contenedorAliadosComerciales {

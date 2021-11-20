@@ -1,7 +1,7 @@
 @for $i from 1 through 8 {
     .titulo-#{$i} {
         color: $colorletraseis;
-        display: flex;
+        display: $flexible;
         font-size: 3em;
         justify-content: center;
     }
